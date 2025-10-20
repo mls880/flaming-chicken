@@ -1,1 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="2606" viewBox="0 0 1920 2606"><text fill="rgba(171,76,81,0.25)" font-size="270" font-family="Susu-Jahe, Susu Jahe"><tspan x="21.75" y="210">Flamin’ chicken</tspan><tspan x="51.315" y="390">Taste the flame</tspan><tspan x="21.75" y="570">Flamin’ chicken</tspan><tspan x="51.315" y="750">Taste the flame</tspan><tspan x="21.75" y="930">Flamin’ chicken</tspan><tspan x="51.315" y="1110">Taste the flame</tspan><tspan x="21.75" y="1290">Flamin’ chicken</tspan><tspan x="51.315" y="1470">Taste the flame</tspan><tspan x="21.75" y="1650">Flamin’ chicken</tspan><tspan x="51.315" y="1830">Taste the flame</tspan><tspan x="21.75" y="2010">Flamin’ chicken</tspan><tspan x="51.315" y="2190">Taste the flame</tspan><tspan x="21.75" y="2370">Flamin’ chicken</tspan><tspan x="51.315" y="2550">Taste the flame</tspan></text></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1847.3 2538">
+  <!-- Generator: Adobe Illustrator 29.8.2, SVG Export Plug-In . SVG Version: 2.1.1 Build 3)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #ab4c51;
+        font-family: Susu-Jahe, 'Susu Jahe';
+        font-size: 270px;
+      }
+
+      .st0, .st1 {
+        isolation: isolate;
+      }
+
+      .st1 {
+        opacity: .2;
+      }
+    </style>
+  </defs>
+  <g class="st1">
+    <text class="st0" transform="translate(-15.2 193.4)"><tspan x="0" y="0">Flamin’ chicken</tspan></text>
+    <text class="st0" transform="translate(14.3 373.4)"><tspan x="0" y="0">Taste the flame</tspan></text>
+    <text class="st0" transform="translate(-15.2 553.4)"><tspan x="0" y="0">Flamin’ chicken</tspan></text>
+    <text class="st0" transform="translate(14.3 733.4)"><tspan x="0" y="0">Taste the flame</tspan></text>
+    <text class="st0" transform="translate(-15.2 913.4)"><tspan x="0" y="0">Flamin’ chicken</tspan></text>
+    <text class="st0" transform="translate(14.3 1093.4)"><tspan x="0" y="0">Taste the flame</tspan></text>
+    <text class="st0" transform="translate(-15.2 1273.4)"><tspan x="0" y="0">Flamin’ chicken</tspan></text>
+    <text class="st0" transform="translate(14.3 1453.4)"><tspan x="0" y="0">Taste the flame</tspan></text>
+    <text class="st0" transform="translate(-15.2 1633.4)"><tspan x="0" y="0">Flamin’ chicken</tspan></text>
+    <text class="st0" transform="translate(14.3 1813.4)"><tspan x="0" y="0">Taste the flame</tspan></text>
+    <text class="st0" transform="translate(-15.2 1993.4)"><tspan x="0" y="0">Flamin’ chicken</tspan></text>
+    <text class="st0" transform="translate(14.3 2173.4)"><tspan x="0" y="0">Taste the flame</tspan></text>
+    <text class="st0" transform="translate(-15.2 2353.4)"><tspan x="0" y="0">Flamin’ chicken</tspan></text>
+    <text class="st0" transform="translate(14.3 2533.4)"><tspan x="0" y="0">Taste the flame</tspan></text>
+  </g>
+</svg>
