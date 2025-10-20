@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/Avenir.ttc") format("truetype-collection");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SusuJahe";
+  src: url("../fonts/Susu-Jahe.otf") format("opentype"),
+    url("../fonts/Susu-Jahe.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

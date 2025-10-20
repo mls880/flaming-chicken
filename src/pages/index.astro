@@ -1,0 +1,282 @@
+---
+import "../styles/global.css";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Flaming Chicken - Menu</title>
+  </head>
+  <body class="bg-[#9D1D36] min-h-screen">
+    <!-- Header Image -->
+    <div class="w-full">
+      <img
+        src="/images/base/web-header.jpg"
+        alt="Flaming Chicken Header"
+        class="w-full h-auto object-cover"
+      />
+    </div>
+
+    <!-- Products Section -->
+    <div
+      class="w-full bg-cover bg-center bg-no-repeat pt-12 pb-24"
+      style="background-image: url('/copy-background.svg');"
+    >
+      <div class="container mx-auto max-w-6xl px-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+          <!-- Family Meals -->
+          <div class="flex flex-col items-center text-center text-white">
+            <div class="mb-6 h-64 md:h-72 flex items-center justify-center">
+              <img
+                src="/images/products/full-chicken-large-chips-2-mini-loaves-2-chicken-burgers-and-1l.png"
+                alt="Family Meals"
+                class="max-h-full w-auto object-contain"
+              />
+            </div>
+            <h2
+              class="text-3xl md:text-4xl font-bold mb-3 uppercase tracking-wide"
+              style="font-family: 'SusuJahe', cursive;"
+            >
+              Family Meals
+            </h2>
+            <p
+              class="text-sm md:text-base font-light"
+              style="font-family: 'Avenir', sans-serif;"
+            >
+              The only thing better than flame-grilled chicken is<br />sharin'
+              it
+            </p>
+          </div>
+
+          <!-- Chicken Meals -->
+          <div class="flex flex-col items-center text-center text-white">
+            <div class="mb-6 h-64 md:h-72 flex items-center justify-center">
+              <img
+                src="/images/products/full-chickenlarge-chips.png"
+                alt="Chicken Meals"
+                class="max-h-full w-auto object-contain"
+              />
+            </div>
+            <h2
+              class="text-3xl md:text-4xl font-bold mb-3 uppercase tracking-wide"
+              style="font-family: 'SusuJahe', cursive;"
+            >
+              Chicken Meals
+            </h2>
+            <p
+              class="text-sm md:text-base font-light"
+              style="font-family: 'Avenir', sans-serif;"
+            >
+              Chicken meals for when you're feedin' the crew,<br />or just you
+            </p>
+          </div>
+
+          <!-- Flame-Grilled Wings -->
+          <div class="flex flex-col items-center text-center text-white">
+            <div class="mb-6 h-64 md:h-72 flex items-center justify-center">
+              <img
+                src="/images/products/6-wings.png"
+                alt="Flame-Grilled Wings"
+                class="max-h-full w-auto object-contain"
+              />
+            </div>
+            <h2
+              class="text-3xl md:text-4xl font-bold mb-3 uppercase tracking-wide"
+              style="font-family: 'SusuJahe', cursive;"
+            >
+              Flame-Grilled Wings
+            </h2>
+            <p
+              class="text-sm md:text-base font-light"
+              style="font-family: 'Avenir', sans-serif;"
+            >
+              Lickin' your fingers says it all – our full chicken wings<br />are
+              delicious
+            </p>
+          </div>
+
+          <!-- Chicken Burgers -->
+          <div class="flex flex-col items-center text-center text-white">
+            <div class="mb-6 h-64 md:h-72 flex items-center justify-center">
+              <img
+                src="/images/products/4-chicken-burgerslarge-chips.png"
+                alt="Chicken Burgers"
+                class="max-h-full w-auto object-contain"
+              />
+            </div>
+            <h2
+              class="text-3xl md:text-4xl font-bold mb-3 uppercase tracking-wide"
+              style="font-family: 'SusuJahe', cursive;"
+            >
+              Chicken Burgers
+            </h2>
+            <p
+              class="text-sm md:text-base font-light"
+              style="font-family: 'Avenir', sans-serif;"
+            >
+              Every bite of these burgers will leave you smilin'
+            </p>
+          </div>
+
+          <!-- Chicken Only -->
+          <div class="flex flex-col items-center text-center text-white">
+            <div class="mb-6 h-64 md:h-72 flex items-center justify-center">
+              <img
+                src="/images/products/half-chicken-only.png"
+                alt="Chicken Only"
+                class="max-h-full w-auto object-contain"
+              />
+            </div>
+            <h2
+              class="text-3xl md:text-4xl font-bold mb-3 uppercase tracking-wide"
+              style="font-family: 'SusuJahe', cursive;"
+            >
+              Chicken Only
+            </h2>
+            <p
+              class="text-sm md:text-base font-light"
+              style="font-family: 'Avenir', sans-serif;"
+            >
+              You're here for flame-grilled chicken and nothin' else
+            </p>
+          </div>
+
+          <!-- Sides -->
+          <div class="flex flex-col items-center text-center text-white">
+            <div class="mb-6 h-64 md:h-72 flex items-center justify-center">
+              <img
+                src="/images/products/green-salad.png"
+                alt="Sides"
+                class="max-h-full w-auto object-contain"
+              />
+            </div>
+            <h2
+              class="text-3xl md:text-4xl font-bold mb-3 uppercase tracking-wide"
+              style="font-family: 'SusuJahe', cursive;"
+            >
+              Sides
+            </h2>
+            <p
+              class="text-sm md:text-base font-light"
+              style="font-family: 'Avenir', sans-serif;"
+            >
+              Addin' a side is as easy as 1, 2, click
+            </p>
+          </div>
+
+          <!-- Desserts -->
+          <div class="flex flex-col items-center text-center text-white">
+            <div class="mb-6 h-64 md:h-72 flex items-center justify-center">
+              <img
+                src="/images/products/oreo-sundae.png"
+                alt="Desserts"
+                class="max-h-full w-auto object-contain"
+              />
+            </div>
+            <h2
+              class="text-3xl md:text-4xl font-bold mb-3 uppercase tracking-wide"
+              style="font-family: 'SusuJahe', cursive;"
+            >
+              Desserts
+            </h2>
+            <p
+              class="text-sm md:text-base font-light"
+              style="font-family: 'Avenir', sans-serif;"
+            >
+              Because every meal deserves a sweet endin'
+            </p>
+          </div>
+
+          <!-- Beverages -->
+          <div class="flex flex-col items-center text-center text-white">
+            <div class="mb-6 h-64 md:h-72 flex items-center justify-center">
+              <img
+                src="/images/products/440ml-coke.png"
+                alt="Beverages"
+                class="max-h-full w-auto object-contain"
+              />
+            </div>
+            <h2
+              class="text-3xl md:text-4xl font-bold mb-3 uppercase tracking-wide"
+              style="font-family: 'SusuJahe', cursive;"
+            >
+              Beverages
+            </h2>
+            <p
+              class="text-sm md:text-base font-light"
+              style="font-family: 'Avenir', sans-serif;"
+            >
+              Keepin' your cool is easy with our cold drinks
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <!-- Bird Feet Pattern Strip -->
+
+      <!-- Footer Content -->
+      <div class="bg-[#363636] pb-12">
+        <div
+          class="w-full h-20 bg-repeat-x bg-center mb-13"
+          style="background-image: url('/images/base/bird-feet.svg'); background-size: auto 100%;"
+        >
+        </div>
+        <div class="container mx-auto max-w-6xl px-4">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Left Side - Text -->
+            <div
+              class="text-white flex flex-col items-center justify-center text-center px-4"
+            >
+              <h3
+                class="text-3xl md:text-4xl font-bold mb-2 uppercase tracking-wide"
+                style="font-family: 'SusuJahe', cursive;"
+              >
+                From Fire to Feast
+              </h3>
+              <p
+                class="text-xl md:text-4xl uppercase tracking-wide"
+                style="font-family: 'SusuJahe', cursive;"
+              >
+                Let's make it a tradition
+              </p>
+            </div>
+
+            <!-- Right Side - Order Button and Delivery Services -->
+            <div class="flex flex-col items-center justify-center gap-2 px-4">
+              <!-- Order Now Button -->
+              <img
+                src="/images/base/order-now-button.svg"
+                alt="Order Now"
+                class="h-16 w-auto cursor-pointer hover:scale-105 transition-transform max-w-[175px]"
+              />
+
+              <!-- Delivery Service Logos -->
+              <div class="flex items-center gap-4">
+                <img
+                  src="/images/base/MrD.png"
+                  alt="Mr D Food"
+                  class="h-20 w-auto cursor-pointer hover:scale-105 transition-transform"
+                  width="150"
+                  height="150"
+                />
+                <img
+                  src="/images/base/UberEats.png"
+                  alt="Uber Eats"
+                  class="h-20 w-auto cursor-pointer hover:scale-105 transition-transform"
+                  width="150"
+                  height="150"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
